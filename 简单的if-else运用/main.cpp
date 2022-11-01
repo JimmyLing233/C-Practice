@@ -2,7 +2,7 @@
 int main()
 {
     int a,b;
-    int t;
+    float t;
     printf("输入两门课的成绩：");
     scanf("%d,%d",&a,&b);
     t=(a+b)/2;
