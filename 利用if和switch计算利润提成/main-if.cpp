@@ -4,7 +4,9 @@ int main()
     double a,b;
     printf("请输入利润：");
     scanf("%lf",&a);
-    if(a<=100000)
+    if(a<0)
+        printf("Error\n");
+    else if(a>=0&&a<=100000)
         b = a*0.1;
     else if(a>100000&&a<=200000)
         b = (100000*0.1)+(a-100000)*0.075;
